@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-// Основной компонент ответственный за реализацию моделей интеллектуального перемещения
+// РћСЃРЅРѕРІРЅРѕР№ РєРѕРјРїРѕРЅРµРЅС‚ РѕС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Р№ Р·Р° СЂРµР°Р»РёР·Р°С†РёСЋ РјРѕРґРµР»РµР№ РёРЅС‚РµР»Р»РµРєС‚СѓР°Р»СЊРЅРѕРіРѕ РїРµСЂРµРјРµС‰РµРЅРёСЏ
 public class Agent : MonoBehaviour
 {
     public float maxSpeed;
-    public float maxAccel; // acceleration - ускорение
+    public float maxAccel; // acceleration - СѓСЃРєРѕСЂРµРЅРёРµ
     public float orientation;
     public float rotation;
-    public Vector3 velocity; // скорость перемещения
+    public Vector3 velocity; // СЃРєРѕСЂРѕСЃС‚СЊ РїРµСЂРµРјРµС‰РµРЅРёСЏ
     protected Steering steering;
     void Start()
     {
@@ -20,7 +20,7 @@ public class Agent : MonoBehaviour
 
     public virtual void Update()
     {
-        // displacement - перемещение 
+        // displacement - РїРµСЂРµРјРµС‰РµРЅРёРµ 
         Vector3 displacement = velocity * Time.deltaTime;
 
         if (orientation < 0.0f)

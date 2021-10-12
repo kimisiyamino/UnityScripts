@@ -24,8 +24,5 @@ public class LerpTest : MonoBehaviour
     {
         Vector3 newPosition = Vector3.Lerp(greenCubeTransform.position, redCubeTransform.position, interpol);
         transform.position = newPosition;
-
-        
-        
      }
 }

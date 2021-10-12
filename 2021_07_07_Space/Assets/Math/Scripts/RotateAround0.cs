@@ -1,9 +1,7 @@
 //
-// https://ru.stackoverflow.com/questions/533735/unity-5-движение-по-кругу-через-поворот
+// https://ru.stackoverflow.com/questions/533735/unity-5-РґРІРёР¶РµРЅРёРµ-РїРѕ-РєСЂСѓРіСѓ-С‡РµСЂРµР·-РїРѕРІРѕСЂРѕС‚
 //
 //
-
-
 
 using System.Collections;
 using System.Collections.Generic;
@@ -13,9 +11,9 @@ public class RotateAround0 : MonoBehaviour
 {
     [Header("cos/sin Rotate around 0")]
     [Space(10)]
-    public bool isCircle = false; // условие движения по кругу
-    public float angle = 0; // угол 
-    public float radius = 0.5f; // радиус
+    public bool isCircle = false; // СѓСЃР»РѕРІРёРµ РґРІРёР¶РµРЅРёСЏ РїРѕ РєСЂСѓРіСѓ
+    public float angle = 0; // СѓРіРѕР» 
+    public float radius = 0.5f; // СЂР°РґРёСѓСЃ
     public float speed = 0.5f;
     
 
@@ -29,7 +27,7 @@ public class RotateAround0 : MonoBehaviour
     {
         if (isCircle)
         {
-            angle += Time.deltaTime; // меняется плавно значение угла
+            angle += Time.deltaTime; // РјРµРЅСЏРµС‚СЃСЏ РїР»Р°РІРЅРѕ Р·РЅР°С‡РµРЅРёРµ СѓРіР»Р°
 
             var x = Mathf.Cos(angle * speed) * radius;
             var y = Mathf.Sin(angle * speed) * radius;

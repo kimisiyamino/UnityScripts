@@ -26,8 +26,6 @@ public class PlayerFollow : MonoBehaviour
 
         transform.position = Vector3.Slerp(transform.position, newPos, SmoothFactor);
 
-
-
         print("NEW CAMERA COORD: " + transform.position);
 
     }

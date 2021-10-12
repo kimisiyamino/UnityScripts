@@ -1,7 +1,7 @@
 // code by EleonoraLion
 //
 // RotateTowards + LookRotation 
-// Поворот по x, y, z объекта к другому объекту, слежение за point
+// РџРѕРІРѕСЂРѕС‚ РїРѕ x, y, z РѕР±СЉРµРєС‚Р° Рє РґСЂСѓРіРѕРјСѓ РѕР±СЉРµРєС‚Сѓ, СЃР»РµР¶РµРЅРёРµ Р·Р° point
 
 using System.Collections;
 using System.Collections.Generic;
@@ -15,11 +15,11 @@ public class RotateTowards : MonoBehaviour
 
     void Update()
     {
-        // Высчитываем вектор поворота направления
+        // Р’С‹СЃС‡РёС‚С‹РІР°РµРј РІРµРєС‚РѕСЂ РїРѕРІРѕСЂРѕС‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ
         Vector3 newDirection = Vector3.RotateTowards(transform.forward, point.position - transform.position, Time.deltaTime * Speed, Magnitude);
-        // Тест-рейкаст
+        // РўРµСЃС‚-СЂРµР№РєР°СЃС‚
         Debug.DrawRay(transform.position, newDirection * RayLength, color);
-        // Поворачиваемся в соответствии с вектором (можем отключить ненужные оси)
+        // РџРѕРІРѕСЂР°С‡РёРІР°РµРјСЃСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РІРµРєС‚РѕСЂРѕРј (РјРѕР¶РµРј РѕС‚РєР»СЋС‡РёС‚СЊ РЅРµРЅСѓР¶РЅС‹Рµ РѕСЃРё)
         transform.rotation = Quaternion.LookRotation(new Vector3(newDirection.x, newDirection.y, newDirection.z));
     }
 }

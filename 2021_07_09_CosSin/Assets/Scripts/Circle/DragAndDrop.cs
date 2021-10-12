@@ -23,7 +23,6 @@ public class DragAndDrop : MonoBehaviour
             positions[i] = lineRenderer.GetPosition(i);
         }
 
-
         //float rad = Mathf.Deg2Rad * (i * 360f / 360);
         //transform.Translate(new Vector2(Mathf.Sin(rad) * 10, Mathf.Cos(rad) * 10));
 

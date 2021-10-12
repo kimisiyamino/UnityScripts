@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-// Шаблон для большей части моделей поведения
+// РЁР°Р±Р»РѕРЅ РґР»СЏ Р±РѕР»СЊС€РµР№ С‡Р°СЃС‚Рё РјРѕРґРµР»РµР№ РїРѕРІРµРґРµРЅРёСЏ
 public class AgentBehaviour : MonoBehaviour
 {
     public GameObject target;

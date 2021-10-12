@@ -1,7 +1,7 @@
 // code by EleonoraLion
 //
 // Point
-// Храним координаты "соседей"
+// РҐСЂР°РЅРёРј РєРѕРѕСЂРґРёРЅР°С‚С‹ "СЃРѕСЃРµРґРµР№"
 
 using System.Collections;
 using System.Collections.Generic;

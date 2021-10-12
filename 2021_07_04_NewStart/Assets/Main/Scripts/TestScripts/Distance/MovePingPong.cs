@@ -1,6 +1,6 @@
 // code by EleonoraLion
 //
-// Интерполяция (point1, point2) с Mathf.PingPong от 0 до Length со скоростью Speed
+// РРЅС‚РµСЂРїРѕР»СЏС†РёСЏ (point1, point2) СЃ Mathf.PingPong РѕС‚ 0 РґРѕ Length СЃРѕ СЃРєРѕСЂРѕСЃС‚СЊСЋ Speed
 //
 
 using System.Collections;

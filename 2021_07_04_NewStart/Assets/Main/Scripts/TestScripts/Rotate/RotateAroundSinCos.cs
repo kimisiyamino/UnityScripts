@@ -1,6 +1,6 @@
 // Code by EleonoraLion
 //
-// Вращение объекта вокруг target через косинус и синус
+// Р’СЂР°С‰РµРЅРёРµ РѕР±СЉРµРєС‚Р° РІРѕРєСЂСѓРі target С‡РµСЂРµР· РєРѕСЃРёРЅСѓСЃ Рё СЃРёРЅСѓСЃ
 // 
 
 using System.Collections;
@@ -9,10 +9,10 @@ using UnityEngine;
 
 public class RotateAroundSinCos : MonoBehaviour
 {
-    public bool isCircle = false; // условие движения по кругу
+    public bool isCircle = false; // СѓСЃР»РѕРІРёРµ РґРІРёР¶РµРЅРёСЏ РїРѕ РєСЂСѓРіСѓ
 
-    public float angle = 0; // угол 
-    public float radius = 0.5f; // радиус
+    public float angle = 0; // СѓРіРѕР» 
+    public float radius = 0.5f; // СЂР°РґРёСѓСЃ
     public float speed = 0.5f;
 
     public Transform target;
@@ -33,7 +33,7 @@ public class RotateAroundSinCos : MonoBehaviour
     {
         if (isCircle)
         {
-            angle += Time.deltaTime; // меняется плавно значение угла
+            angle += Time.deltaTime; // РјРµРЅСЏРµС‚СЃСЏ РїР»Р°РІРЅРѕ Р·РЅР°С‡РµРЅРёРµ СѓРіР»Р°
             angle %= Mathf.PI*2;
 
             //x = target.position.x + Mathf.Sin(angle * speed) * radius;

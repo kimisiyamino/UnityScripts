@@ -1,6 +1,6 @@
 // code by EleonoraLion
 //
-// Выводим в TextMesh дистанцию от pointA до pointB в формате "0.000"
+// Р’С‹РІРѕРґРёРј РІ TextMesh РґРёСЃС‚Р°РЅС†РёСЋ РѕС‚ pointA РґРѕ pointB РІ С„РѕСЂРјР°С‚Рµ "0.000"
 //
 
 using System.Collections;

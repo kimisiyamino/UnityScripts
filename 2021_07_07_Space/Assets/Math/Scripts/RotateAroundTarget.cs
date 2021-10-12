@@ -1,7 +1,7 @@
 // Code by Eleonora Lion
 // https://docs.unity3d.com/ScriptReference/Transform.RotateAround.html
 //
-// Движение объекта вокруг target с поворотом своей оси
+// Р”РІРёР¶РµРЅРёРµ РѕР±СЉРµРєС‚Р° РІРѕРєСЂСѓРі target СЃ РїРѕРІРѕСЂРѕС‚РѕРј СЃРІРѕРµР№ РѕСЃРё
 
 using System.Collections;
 using System.Collections.Generic;
